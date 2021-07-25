@@ -1,0 +1,85 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(151, 29, 29);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.settings {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: indianred;
+  height: 140px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+select {
+  width: 200px;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 20px;
+  background-color: rgb(196, 162, 162);
+}
+
+select:focus,
+button:focus {
+  outline: 0;
+}
+
+.container {
+  background-color: rgb(110, 48, 48);
+  padding: 20px;
+  border-radius: 4px;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
+  color: white;
+  position: relative;
+  text-align: center;
+  width: 700px;
+}
+
+.container h2 {
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 8px;
+  border-radius: 4px;
+  margin: 0 0 40px;
+}
+
+.btn {
+  color: #fff;
+  background: rgb(100, 45, 45);
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 15px;
+  padding: 5px 12px;
+  margin: 20px;
+}
+
+label {
+  font-size: 20px;
+  margin-right: 5px;
+}
+
+.message {
+  margin-top: 50px;
+  display: none;
+}
+
+.replayButton {
+  color: rgb(100, 45, 45);
+  background: #fff;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 20px;
+  padding: 5px 12px;
+}
